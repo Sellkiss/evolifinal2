@@ -65,7 +65,7 @@ class Index {
                 generateUpdatesFilesForAllChannels: false,
                 appId: preductname,
                 productName: preductname,
-                copyright: 'Copyright © 2020-2025 Riptiaz',
+                copyright: 'Copyright © 2020-2025 Sellkiss',
                 artifactName: "${productName}-${os}-${arch}.${ext}",
                 extraMetadata: { main: 'app/app.js' },
                 files: ["app/**/*", "package.json", "LICENSE.md"],
