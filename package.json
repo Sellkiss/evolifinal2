@@ -1,12 +1,12 @@
 {
-    "name": "conflictura",
-    "preductname": "Conflictura Launcher",
-    "version": "3.3.3",
+    "name": "evolicraft",
+    "preductname": "evolicraft Launcher",
+    "version": "1.0.1",
     "description": "Conflictura modded server launcher",
     "main": "src/app.js",
-    "author": "Riptiaz/Boulldogo/Vexato/Luuxis",
+    "author": "Riptiaz/Boulldogo/Vexato/Luuxis/sellkiss",
     "env": "azuriom",
-    "settings": "https://conflictura.eu",
+    "settings": "https://evolicraft.online",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --obf=true --build=platform",
@@ -37,6 +37,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Riptiaz/CentralCorp-Launcher.git"
+        "url": "git+https://github.com/Sellkiss/evolifinal2.git"
     }
 }
