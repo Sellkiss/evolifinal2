@@ -1,7 +1,7 @@
 {
     "name": "evolicraft",
     "preductname": "evolicraft Launcher",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Conflictura modded server launcher",
     "main": "src/app.js",
     "author": "Riptiaz/Boulldogo/Vexato/Luuxis/sellkiss",
@@ -11,7 +11,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --obf=true --build=platform",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --ignore AppData/ --ignore node_modules/ --legacy-watch --exec npm start",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/CentralCorp/CentralCorp-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://evolicraft.online/storage/img/lg.png"
 
     },
     "license": "CC0",
