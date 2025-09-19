@@ -125,7 +125,7 @@ class Home {
             path: `${dataDirectory}/${process.platform == 'darwin' ? this.config.dataDirectory : `.${this.config.dataDirectory}`}`,
             version: this.config.game_version,
             detached: launcherSettings.launcher.close === 'close-all' ? false : true,
-            downloadFileMultiple: 30,
+            downloadFileMultiple: 20,
             loader: {
                 type: this.config.loader.type,
                 build: this.config.loader.build,
@@ -137,7 +137,7 @@ class Home {
                 "launcher_config",
             ],
             intelEnabledMac: process.platform === 'darwin' && process.arch === 'arm64',
-            downloadFileMultiple: 30,
+            downloadFileMultiple: 20,
             JVM_ARGS: [],
             GAME_ARGS: [],
             java: this.config.java,
